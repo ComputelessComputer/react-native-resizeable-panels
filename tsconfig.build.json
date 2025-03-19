@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "lib/typescript",
+    "typeRoots": ["./node_modules/@types", "./src"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["example", "**/__tests__/**", "**/__mocks__/**"]
+}

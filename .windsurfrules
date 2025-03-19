@@ -1,0 +1,2 @@
+This is mono repo for react-native-resizable-panels
+Use bun for runtime, pnpm for package manager
